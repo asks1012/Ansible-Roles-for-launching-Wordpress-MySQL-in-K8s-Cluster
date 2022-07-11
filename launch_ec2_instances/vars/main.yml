@@ -1,0 +1,14 @@
+---
+# vars file for launch_ec2_instances
+
+key_name: "kubernetes"
+instance_type: "t2.micro"
+AMI_ID : "ami-08df646e18b182346"
+master_security_group: "YOUR_SG"
+worker_security_group: "YOUR_SG"
+subnet_id: "YOUR_SUBNET_ID"
+region_name: "ap-south-1"
+access_key: "YOUR_ACCESS_KEY"
+secret_key: "YOUR_SECRET_KEY"
+number_of_slave_nodes: "2"
+inventory_location: "/home/sagar/inventory.txt"
